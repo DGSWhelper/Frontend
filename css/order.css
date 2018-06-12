@@ -1,0 +1,33 @@
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+
+@import url(http://fonts.googleapis.com/earlyaccess/hanna.css);
+body {
+    position: fixed;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 15px;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 1000%;
+    font-size: 12px;
+
+    background-color: #f4f4f4;
+    background-image: url('https://images.unsplash.com/photo-1469428946640-844b286ebf50?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=938d44c6ce660d4052098b808c31e1b0&auto=format&fit=crop&w=1350&q=80');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center top;
+}
+
+
+.order {
+    position: relative;
+    margin: 0 auto;
+    margin-top: 80px;
+    
+    width: 600px;
+    height: 600px;
+    border-radius: 50px;
+    background-color: rgba(255, 255, 255, 0.95);
+    z-index: 998;
+}

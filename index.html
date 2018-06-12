@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <title>SuperMan</title>
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" type="text/css" href="css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+     <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+</head>
+
+<body>
+    <div class="wrapper">
+
+        <header>
+            <div class="container">
+                <nav>
+                    <ul>
+                       <li class="menu">
+                           <div class="icon-menu-wrap">
+                               <div class="icon-menu">
+                                   <img src="https://s3.amazonaws.com/uifaces/faces/twitter/mrvanz/128.jpg">
+                               </div>
+                           </div>
+                           
+                           <ul class="main-menu" style="display: none">
+                               <li class="profile_img"><img src="https://s3.amazonaws.com/uifaces/faces/twitter/mrvanz/128.jpg"></li>
+                               <p>이름: </p>
+                               <li class="username">시아</li>
+                               <p>이메일: </p>
+                               <li class="email">qwerq@gmail.com</li>
+                               <p>컨텐츠: </p>
+                               <li class="contact">???</li>
+                               <p>완료한 심부름: </p>
+                               <li class="finish_order">13</li>
+                               <p>메로나:</p>
+                               <li class="like">3</li>
+                               <p>싫어요: </p>
+                               <li class="hate">3</li>
+                           </ul>
+                       </li>
+                        <li class="logo">
+                            <img src="img/SuperManLogo5.PNG">
+                        </li>
+                        <li class="order"><a href="#">Order</a></li>
+                        <li class="profile"><a href="#">Login</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <div id="content">
+
+            <div class="introduce">
+                <p>당신의 <strong>슈퍼맨</strong>을 </p><br><p>찾아드립니다</p>
+            </div>
+            <div class="list">
+               <p>요청 목록</p>
+                <table>
+                    <ul class="order order1">
+                        <li class="title">사주세요!!@!~!~!~!~</li>
+                        <br>
+                        <li class="shop">마시그레이</li>
+                        <li class="item">딸기바나나요거트</li>
+                        <li class="price">3100</li>
+                    </ul>
+                    <hr>
+                    <ul class="order order2">
+                        <li class="title">수수료 500원 이하로</li>
+                        <br>
+                        <li class="shop">편의점</li>
+                        <li class="item">불닭볶음면</li>
+                        <li class="price">3100</li>
+                    </ul>
+                    <hr>
+                </table>
+            </div>
+        </div>
+
+        <footer>
+            &copy
+        </footer>
+    </div>
+    </div>
+    
+    
+    <script>
+        
+    $('.icon-menu-wrap').click(function () {
+         $('.main-menu').toggle();
+        $('.main-menu').toggleClass('active');
+    });
+    </script>
+</body>
+
+</html>
